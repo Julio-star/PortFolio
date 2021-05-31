@@ -1,0 +1,23 @@
+table,
+td {
+    border: 1px solid #333;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
+
+.S-bleu{
+	position: relative;
+}
+
+.S-bleu:before{
+	content: '';
+	position: absolute;
+	height: 2px;
+	background-color: #0078ff;
+	width: 75px;
+	bottom: -5px;
+}
